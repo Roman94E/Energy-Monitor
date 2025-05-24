@@ -33,7 +33,7 @@ This repository demonstrates a complete end-to-end solution for monitoring energ
 │   └── Shelly_to_AWS.drawio.png   
 │
 ├── Scripts/
-│   └── shelly.js                 # Embedded mScript for Shelly EM
+│   └── Shelly_mScript.js         # Embedded mScript for Shelly EM
 │
 ├── Lambda/
 │   └── Shelly_Script.py          # AWS Lambda handler
