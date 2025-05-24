@@ -16,7 +16,7 @@ This repository demonstrates a complete end-to-end solution for monitoring energ
 
 ## 🔧 Architecture
 
-![Architecture Diagram](./assets/Shelly_to_AWS.drawio.png)
+![Architecture Diagram](./Assets/Shelly_to_AWS.drawio.png)
 
 1. **Shelly EM Script** (`scripts/shelly.js`) polls the device via `EM.GetStatus` and triggers `HTTP.GET` to the Lambda URL.
 2. **AWS Lambda Function** (`lambda/Shelly_Script.py`) parses parameters, normalizes values, computes energy flows, and forwards payloads to Emoncms and DynamoDB.
@@ -28,13 +28,13 @@ This repository demonstrates a complete end-to-end solution for monitoring energ
 ## 📂 Repository Structure
 
 ```
-├── assets/
+├── Assets/
 │   └── Shelly_to_AWS.drawio.png   # Architecture diagram
 │
-├── scripts/
+├── Scripts/
 │   └── shelly.js                 # Embedded mScript for Shelly EM
 │
-├── lambda/
+├── Lambda/
 │   └── Shelly_Script.py          # AWS Lambda handler
 │
 ├── README.md                     # Project landing page
