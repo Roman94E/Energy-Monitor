@@ -29,7 +29,8 @@ This repository demonstrates a complete end-to-end solution for monitoring energ
 
 ```
 ├── Assets/
-│   └── Shelly_to_AWS.drawio.png   # Architecture diagram
+│   └── Shelly_to_AWS.drawio       # Architecture diagram
+│   └── Shelly_to_AWS.drawio.png   
 │
 ├── Scripts/
 │   └── shelly.js                 # Embedded mScript for Shelly EM
