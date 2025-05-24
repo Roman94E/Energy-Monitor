@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.8">
+  <diagram name="AWS Lambda + DynamoDB + S3" id="P7IkqbdWQOYrv58tyLVo">
+    <mxGraphModel dx="1652" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-23" style="endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="uF8f5wfFcsfP5xMlIXIG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="535.5" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-30" value="" style="endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" target="uF8f5wfFcsfP5xMlIXIG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="360" as="sourcePoint" />
+            <mxPoint x="600" y="535.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="347.75" width="20" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-32" value="Shelly 3EM Pro&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-37" value="devices" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="90" height="65.7" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-38" value="AWS Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-39" value="Amazon DynamoDB" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-44" value="House" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.house;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-45" style="endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="360" as="targetPoint" />
+            <mxPoint x="120" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-46" value="Data sent to Lambda" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;" vertex="1" parent="uF8f5wfFcsfP5xMlIXIG-45">
+          <mxGeometry x="0.5" y="-1.2" width="90" height="38.8" relative="1" as="geometry">
+            <mxPoint x="-75" y="-51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-47" style="endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="360" as="targetPoint" />
+            <mxPoint x="340" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-48" value="Data sent to DynamoDB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;" vertex="1" parent="uF8f5wfFcsfP5xMlIXIG-47">
+          <mxGeometry x="0.5" y="-1.2" width="90" height="38.8" relative="1" as="geometry">
+            <mxPoint x="-80" y="-51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-51" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-52" style="endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" target="uF8f5wfFcsfP5xMlIXIG-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="490" as="targetPoint" />
+            <mxPoint x="340" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-55" value="Manual export to S3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="595" y="308.95" width="90" height="38.8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-56" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="600" height="218.8" as="geometry" />
+        </mxCell>
+        <mxCell id="uF8f5wfFcsfP5xMlIXIG-54" value="Data sent to EmonCMS.org" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;rotation=42;" vertex="1" parent="uF8f5wfFcsfP5xMlIXIG-56">
+          <mxGeometry x="110" y="150" width="90" height="38.8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
